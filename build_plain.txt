@@ -1,0 +1,62 @@
+
+> applecross@0.0.0 build
+> ng build
+
+[33m❯[39m Building...
+[32m✔[39m Building...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m        [2m | [22m [1mRaw size[22m[2m | [22m[1mEstimated transfer size[22m
+[32mmain-WJHYGIZT.js[39m   [2m | [22m[2mmain[22m         [2m | [22m[36m265.72 kB[39m[2m | [22m               [36m69.57 kB[39m
+[32mstyles-IZJ2G2PF.css[39m[2m | [22m[2mstyles[22m       [2m | [22m[36m230.93 kB[39m[2m | [22m               [36m22.83 kB[39m
+
+[1m [22m                  [2m | [22m[1mInitial total[22m[2m | [22m[1m496.65 kB[22m[2m | [22m               [1m92.40 kB[22m
+
+Application bundle generation failed. [3.442 seconds] - 2026-03-16T08:18:04.916Z
+
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: Home is not used within the template of App[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.ts:15:39:
+[37m      15 │ ...: [RouterOutlet,Navbar,Footer,[32mHome[37m,Portfolio,Technologies,Testi...
+         ╵                                  [32m~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: Portfolio is not used within the template of App[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.ts:15:44:
+[37m      15 │ ...rOutlet,Navbar,Footer,Home,[32mPortfolio[37m,Technologies,Testimonials,...
+         ╵                               [32m~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: Technologies is not used within the template of App[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.ts:15:54:
+[37m      15 │ ...bar,Footer,Home,Portfolio,[32mTechnologies[37m,Testimonials,Careers,Pro...
+         ╵                              [32m~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: Testimonials is not used within the template of App[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.ts:15:67:
+[37m      15 │ ...,Home,Portfolio,Technologies,[32mTestimonials[37m,Careers,ProductDetails],
+         ╵                                 [32m~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: Careers is not used within the template of App[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.ts:15:80:
+[37m      15 │ ...,Home,Portfolio,Technologies,Testimonials,[32mCareers[37m,ProductDetails],
+         ╵                                              [32m~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: ProductDetails is not used within the template of App[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.ts:15:88:
+[37m      15 │ ...,Home,Portfolio,Technologies,Testimonials,Careers,[32mProductDetails[37m],
+         ╵                                                      [32m~~~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1msrc/app/contact/contact.css exceeded maximum budget. Budget 4.00 kB was not met by 5.37 kB with a total of 9.37 kB.[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1msrc/app/contact/contact.css exceeded maximum budget. Budget 8.00 kB was not met by 1.37 kB with a total of 9.37 kB.[0m
+
+[39m[22m

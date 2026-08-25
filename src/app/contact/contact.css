@@ -131,8 +131,11 @@
 
 .contact-cards-wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 28px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: -60px;
   position: relative;
   z-index: 2;
@@ -318,7 +321,9 @@
 
 .contact-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  max-width: 650px;
+  margin: 0 auto;
   gap: 40px;
   align-items: start;
 }
@@ -569,7 +574,7 @@
 
 @media (max-width: 992px) {
   .contact-cards-wrapper {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     padding: 0 15px;
   }
